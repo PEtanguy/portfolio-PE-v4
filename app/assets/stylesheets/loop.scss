@@ -1,0 +1,20 @@
+
+
+    .loop {
+      // position: relative;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      // width: 1px;
+      // height: 5vh;
+    }
+
+    .el {
+      position: absolute;
+      opacity: 1;
+      width: 1vh;
+      height: 5vh;
+      margin-top: -3vh;
+      transform-origin: 50% 100%;
+      background: white;
+    }

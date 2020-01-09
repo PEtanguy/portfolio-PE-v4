@@ -11,3 +11,96 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "loop";
+@import "music";
+
+$blue: #7FC6A4;
+$lightblue: #D6F8D6;
+$lightgrey: #5D737E;
+$yellow: #FAF33E;
+
+body {
+    // padding: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    // width: 100%;
+    // height: 100vh;
+  }
+
+.container {
+  // padding: 0vh;
+  height: 30px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  justify-content: center;
+}
+.title {
+  position: relative;
+  color: white;
+  top:200px;
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.work-Barly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $lightgrey;
+  transition: all .2s ease-in-out;
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.work {
+  position: relative;
+  bottom: 600px;
+  color: white;
+}
+
+.barly-main-wrap {
+  // background-color: $yellow;
+  color: white;
+
+  padding: 15px;
+  // border-radius: 15px;
+  width: 100vw;
+}
+
+
+.barly-sides {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.work-Barly:hover {
+  transform: scale(1.1);
+  background-color: $lightgrey;
+}
+
+
+.barly-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif {
+  margin: 10px;
+}
+
+.gif-dash {
+  margin: 10px;
+}
